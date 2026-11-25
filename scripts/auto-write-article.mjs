@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+﻿import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TOPIC_BACKLOG } from '../src/data/topic-backlog.mjs';
@@ -29,7 +29,7 @@ async function main() {
   const now = new Date(Date.now() + 8 * 3600 * 1000);
   const today = now.toISOString().slice(0, 10);
 
-  const systemPrompt = `你是“老陈”，梯子热（tizihot.club）站长，折腾跨境网络和代理协议八年的老网工。
+  const systemPrompt = `你是“阿杰”，梯子热（tizihot.club）站长，折腾跨境网络和代理协议八年的老网工。
 写作要求：
 1. 必须拟人化、说人话、有真实实测口吻，严禁“总而言之、综上所述、值得注意的是、显而易见”等 AI 套话。
 2. 正文 HTML 不少于 2000 个汉字，使用 <h2>、<h3>、<p>、<ul>、<li>、<ol>、<strong>、<code> 排版（不要输出 <h1> 或完整 html 标签）。

@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+﻿import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SITE } from '../src/data/site.mjs';
@@ -150,7 +150,7 @@ function renderAirportCard(a) {
     <ul class="highlight-list">
       ${a.highlights.map((h) => `<li>${h}</li>`).join('')}
     </ul>
-    <p style="font-size:0.86rem;color:var(--ink-muted);margin-bottom:16px;"><strong>老陈点评：</strong>${a.verdict}</p>
+    <p style="font-size:0.86rem;color:var(--ink-muted);margin-bottom:16px;"><strong>阿杰点评：</strong>${a.verdict}</p>
     <div class="card-footer">
       <label class="compare-toggle">
         <input type="checkbox" class="compare-check" value="${a.id}" />
@@ -412,7 +412,7 @@ writePage(
   'blog/index.html',
   layout({
     title: '深度评测与实战教程 — 光年梯VPN、Clash配置与代理IP指南 | 梯子热',
-    description: '老陈亲测撰写的机场评测、光年梯VPN/加速器/IP 使用报告、Clash Verge Rev 配置指南与防跑路行业拆解。',
+    description: '阿杰亲测撰写的机场评测、光年梯VPN/加速器/IP 使用报告、Clash Verge Rev 配置指南与防跑路行业拆解。',
     canonicalPath: '/blog/',
     activeNav: 'blog',
     body: `

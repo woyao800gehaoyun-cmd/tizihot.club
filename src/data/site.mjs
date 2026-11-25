@@ -1,4 +1,4 @@
-export const SITE = {
+﻿export const SITE = {
   name: '梯子热 TiziHot',
   shortName: 'TiziHot',
   domain: 'tizihot.club',
@@ -25,7 +25,7 @@ export const SITE = {
     '光年梯IP'
   ],
   author: {
-    name: '老陈（TiziHot 站长）',
+    name: '阿杰（TiziHot 站长）',
     bio: '折腾跨境网络与代理协议八年的老网工，自费维护三网探针，坚持月付实测，只写人话。'
   },
   updatedAt: '2026-11-25',

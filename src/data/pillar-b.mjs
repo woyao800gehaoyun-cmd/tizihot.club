@@ -1,4 +1,4 @@
-export const PILLAR_B = [
+﻿export const PILLAR_B = [
   {
     slug: 'pianyi-jichang-anliang-shiyong-2026',
     title: '2026 便宜机场推荐与按量计费/免费试用/优惠码避坑指南：月付、不限时流量包怎么选？',
@@ -43,7 +43,7 @@ export const PILLAR_B = [
         <li><strong>机场优惠码 / 折扣码怎么用</strong>：在结算页面找到“优惠券”输入框，填入节假日官方公告或本站合作渠道发放的折扣码，点击验证确认减免后再支付。</li>
       </ol>
 
-      <h2>四、老陈的高性价比实战搭配（抄作业版）</h2>
+      <h2>四、阿杰的高性价比实战搭配（抄作业版）</h2>
       <p>想花最少的钱获得最稳的体验？推荐这套经得起考验的组合：<strong>主力月付选 <a href="https://Rumors.gntaff.com/#/?code=Mclks3w5" target="_blank" rel="noopener noreferrer sponsored">光年梯</a>（¥22/月起，IEPL 专线 + 原生 IP 全能抗晚高峰）+ 备用选 <a href="https://aolaiyun01.kuailiaff.com/#/?code=AFR8PsiY" target="_blank" rel="noopener noreferrer sponsored">快狸</a> 或 <a href="https://everett7623.kosingaff.com//#/?code=4PQnpXx6" target="_blank" rel="noopener noreferrer sponsored">可信云</a></strong>。详细参数对比请直接看 <a href="/airports/">2026 机场排行榜</a>，或用 <a href="/tools/">30 秒智能选梯工具</a> 按预算自动匹配。</p>
     `
   },
