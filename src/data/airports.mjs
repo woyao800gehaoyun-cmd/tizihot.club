@@ -135,9 +135,9 @@ export const AIRPORTS = [
       '可搭配光年梯做多场景分流'
     ],
     verdict: '如果你对特定地区的纯净落地 IP 有刚需，边缘节点是很不错的补充选择。',
-    ctaUrl: '#bianyuan-link-pending',
-    ctaText: '官方入口更新中',
-    external: false,
+    ctaUrl: 'https://wep.edgenovaaff.com/#/?code=4wmwcLDL',
+    ctaText: '前往边缘节点官网',
+    external: true,
     accent: '#7C3AED'
   },
   {
