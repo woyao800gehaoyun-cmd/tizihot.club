@@ -1,5 +1,10 @@
+import fs from 'node:fs';
 import { PILLAR_A } from './pillar-a.mjs';
 import { PILLAR_B } from './pillar-b.mjs';
+
+const AUTO_ARTICLES = JSON.parse(
+  fs.readFileSync(new URL('./auto-articles.json', import.meta.url), 'utf8')
+);
 
 const BASE_ARTICLES = [
   {
@@ -172,4 +177,4 @@ const BASE_ARTICLES = [
   }
 ];
 
-export const ARTICLES = [...PILLAR_A, ...PILLAR_B, ...BASE_ARTICLES];
+export const ARTICLES = [...AUTO_ARTICLES, ...PILLAR_A, ...PILLAR_B, ...BASE_ARTICLES];
