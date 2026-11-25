@@ -107,9 +107,9 @@ export const AIRPORTS = [
       '支持灵活月付，流量清晰不虚标'
     ],
     verdict: '偏向速度与低延迟调校，打外服游戏和远程 SSH 开发都很顺手。',
-    ctaUrl: '#sujie-link-pending',
-    ctaText: '官方入口更新中',
-    external: false,
+    ctaUrl: 'https://pygllc.speedworldaff.cc/#/?code=7s0EsI7w',
+    ctaText: '前往速界官网',
+    external: true,
     accent: '#D97706'
   },
   {
