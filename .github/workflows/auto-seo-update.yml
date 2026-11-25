@@ -1,0 +1,41 @@
+name: Auto SEO Refresh & Bing IndexNow (3x/week)
+
+on:
+  schedule:
+    # 每周一、三、五 北京时间 10:00 (UTC 02:00) 自动运行
+    - cron: '0 2 * * 1,3,5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh benchmark date & rebuild dist
+        run: node scripts/auto-update.mjs
+
+      - name: Commit and push updated site to GitHub
+        run: |
+          git config user.name "tizihot-bot"
+          git config user.email "bot@tizihot.club"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(seo): scheduled 3x/week refresh $(date -u +'%Y-%m-%d')"
+            git push origin HEAD:main
+          fi
+
+      - name: Notify Bing IndexNow
+        continue-on-error: true
+        run: node scripts/indexnow.mjs

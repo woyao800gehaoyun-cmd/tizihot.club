@@ -1,0 +1,13 @@
+{
+  "name": "tizihot-club",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "梯子热 TiziHot.club — 深度机场评测、VPN加速器与代理IP导航博客",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "auto-update": "node scripts/auto-update.mjs --push --indexnow"
+  }
+}
