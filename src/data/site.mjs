@@ -28,7 +28,7 @@
     name: '阿杰（TiziHot 站长）',
     bio: '折腾跨境网络与代理协议八年的老网工，自费维护三网探针，坚持月付实测，只写人话。'
   },
-  updatedAt: '2026-11-25',
+  updatedAt: '2026-11-27',
   bingVerification: 'REPLACE_WITH_BING_WEBMASTER_CODE',
   indexNowKey: 'tizihot-club-indexnow-2026'
 };

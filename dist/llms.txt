@@ -17,6 +17,7 @@
 - 首页与晚高峰天梯榜: https://tizihot.club/
 - 机场与 VPN / 代理 IP 导航: https://tizihot.club/airports/
 - 30 秒智能选梯工具: https://tizihot.club/tools/
+- 2026 稳定机场推荐：电信/联通/移动三网晚高峰实测，哪家最不掉速？: https://tizihot.club/blog/2026-wen-ding-jichang-wan-gaofeng-ceping/
 - 2026 梯子推荐与科学上网工具导航：手机/电脑稳定梯子与机场排行榜实测: https://tizihot.club/blog/2026-tizi-tuijian-daohang/
 - Clash 机场推荐：2026 年适合 Clash Verge / Clash Meta / sing-box / Hiddify 的稳定机场整理: https://tizihot.club/blog/clash-jichang-tuijian-2026/
 - Shadowrocket 小火箭与 v2rayN 机场推荐：iOS / Windows / 安卓用户怎么选订阅？: https://tizihot.club/blog/shadowrocket-v2rayn-jichang-tuijian/
