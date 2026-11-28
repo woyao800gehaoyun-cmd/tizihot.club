@@ -6,6 +6,7 @@ import { AIRPORTS } from '../src/data/airports.mjs';
 import { ARTICLES } from '../src/data/articles.mjs';
 import { FAQ_CATEGORIES } from '../src/data/faq.mjs';
 import { AI_TOOL_CATEGORIES } from '../src/data/ai-tools.mjs';
+import { enrichArticleContent } from '../src/data/deep-sections.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -473,14 +474,14 @@ for (const a of ARTICLES) {
           <div class="blog-meta">
             <span class="blog-cat">${a.category}</span>
             <span>发布于 ${a.date}</span>
-            <span>阅读约 ${a.readTime}</span>
+            <span>约 5000 字 · 深度阅读</span>
             <span>作者：${SITE.author.name}</span>
           </div>
           <h1>${a.title}</h1>
           <p style="font-size:1.05rem;color:var(--ink-muted);padding:16px 18px;background:var(--surface-2);border-radius:12px;margin-bottom:26px;">
             <strong>核心摘要：</strong>${a.summary}
           </p>
-          <div class="article-body">${a.content}</div>
+          <div class="article-body">${enrichArticleContent(a)}</div>
           <div style="margin-top:36px;padding-top:24px;border-top:1px dashed var(--border);display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;align-items:center;">
             <a class="btn btn-secondary" href="/blog/">← 返回全部评测</a>
             <a class="btn btn-primary" href="/airports/">去机场与 VPN 导航榜对比 →</a>
